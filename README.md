@@ -1,29 +1,31 @@
-# Twilio
+# Telenor Corporate Services Pakistan
 
-[![Build Status](https://travis-ci.org/blesta/messenger-twilio.svg?branch=master)](https://travis-ci.org/blesta/messenger-twilio) [![Coverage Status](https://coveralls.io/repos/github/blesta/messenger-twilio/badge.svg?branch=master)](https://coveralls.io/github/blesta/messenger-twilio?branch=master)
+[![Blesta 5.x](https://img.shields.io/badge/Blesta-5.x-blue)](https://www.blesta.com/)
+[![Blesta 6.x](https://img.shields.io/badge/Blesta-6.x-blue)](https://www.blesta.com/)
 
-This is a messenger for Blesta that integrates with [Twilio](https://www.twilio.com).
+This is an **unofficial Messenger Add-on for Blesta** that integrates with **Telenor Corporate Services Pakistan** for sending SMS notifications from Blesta.
+
+The messenger is compatible with **Blesta 5.x and 6.x**.
+
+## Requirements
+
+You must have an active account with **Telenor Corporate Services Pakistan**:
+
+https://telenorcsms.com.pk/login
+
+You will need:
+
+- An active Telenor Corporate Services account
+- Valid account credentials
+- A registered **Masking ID**
+- Additional credentials/API details provided by Telenor Corporate Services
+- Blesta 5.x or 6.x
 
 ## Install the Messenger
 
-1. You can install the messenger via composer:
+### 1. Upload the Messenger
 
-    ```
-    composer require blesta/twilio
-    ```
+Upload the source code to the following directory within your Blesta installation:
 
-2. OR upload the source code to a /components/messengers/twilio/ directory within
-your Blesta installation path.
-
-    For example:
-
-    ```
-    /var/www/html/blesta/components/messengers/twilio/
-    ```
-
-3. Log in to your admin Blesta account and navigate to
-> Settings > Messengers
-
-4. Find the Twilio messenger and click the "Install" button to install it
-
-5. You're done!
+```text
+/components/messengers/telenor_corporate/
