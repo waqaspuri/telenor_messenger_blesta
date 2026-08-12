@@ -28,4 +28,4 @@ You will need:
 Upload the source code to the following directory within your Blesta installation:
 
 ```text
-/components/messengers/telenor_corporate/
+/components/messengers/telenor/
