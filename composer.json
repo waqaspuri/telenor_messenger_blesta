@@ -1,0 +1,9 @@
+{
+    "name": "blesta/telenor",
+    "description": "Telenor SMS Gateway Pakistan",
+    "license": "proprietary",
+    "type": "blesta-messenger",
+    "require": {
+        "blesta/composer-installer": "~1.0"
+    }
+}

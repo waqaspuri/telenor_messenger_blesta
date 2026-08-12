@@ -1,0 +1,14 @@
+{
+    "version": "1.0.0",
+    "name": "Telenor",
+    "description": "Telenor SMS Gateway Pakistan",
+    "authors": [
+        {
+            "name": "Waqas Saeed Puri, WCORS.",
+            "url": "http://www.wcors.com/"
+        }
+    ],
+    "types": [
+        "sms"
+    ]
+}
